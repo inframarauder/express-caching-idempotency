@@ -1,0 +1,29 @@
+{
+  "name": "express-caching-idempotency",
+  "version": "1.0.0",
+  "description": "Demo Node.js and Express app implementing server side caching and idempotency.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhasis020299/express-caching-idempotency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhasis020299/express-caching-idempotency/issues"
+  },
+  "homepage": "https://github.com/subhasis020299/express-caching-idempotency#readme"
+}
